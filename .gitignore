@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+*.cov
+
+# Temporary files
+*.log
+
+# Dependency directories (remove the comment below if you're building your dependencies locally)
+# vendor/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go-specific
+*.tmp
+*.log
+
+# Environment variables
+.env
+
+# IDE specific
+*.iml
+
+# SQLC generated files (optional if you want to exclude them)
+# db/sqlc/
+sqlc.yaml
+
+# Go module files
+go.sum
+go.sum~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
